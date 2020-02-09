@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "lib": ["ES6", "ES7"],
+    "jsx": "react-native",
+    "module": "CommonJS",
+    "outDir": "dist"
+  },
+  "include": ["lib/**/*.tsx?", "index.ts"]
+}
