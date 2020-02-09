@@ -2,3 +2,7 @@ example
 .idea
 *.tgz
 .gradle
+build
+gradle
+/gradlew*
+*-error.log

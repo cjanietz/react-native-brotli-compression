@@ -1,5 +1,7 @@
 # react-native-brotli-compression
 
+[![npm version](https://badge.fury.io/js/react-native-brotli-compression.svg)](https://badge.fury.io/js/react-native-brotli-compression)
+
 ## Getting started
 
 You will most likely combine this module with `react-native-fs` or something similar.
