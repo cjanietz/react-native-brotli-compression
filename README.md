@@ -1,4 +1,4 @@
-# react-native-react-native-brotli-compression
+# react-native-brotli-compression
 
 ## Getting started
 
