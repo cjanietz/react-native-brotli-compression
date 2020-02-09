@@ -18,12 +18,15 @@ import {BrotliModule} from "react-native-brotli-compression"
 const downloadAndDecompressFile = async () => {
     const targetPath = RNFS.DocumentDirectoryPath + '/' + 'test.br';
     const {promise} = RNFS.downloadFile({
-        fromUrl: 'https://filebin.net/jgvg4avfdi1zx8in/test.txt.br?t=1o3d3r67',
+        fromUrl: 'http://192.168.178.158:8080/test.txt.br',
         toFile: targetPath
     });
     const md5Hash = await RNFS.hash(targetPath, 'md5');
     console.log(md5Hash);
-    BrotliModule
+    const decompressedFilePath = targetPath + '.dec';
+    await BrotliModule.decompressFile(targetPath, decompressedFilePath);
+    const md5HashDec = await RNFS.hash(decompressedFilePath, 'md5');
+    console.log(md5HashDec);
 };
 
 const App = () => {

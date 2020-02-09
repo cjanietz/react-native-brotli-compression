@@ -2,18 +2,24 @@
 
 ## Getting started
 
+You will most likely combine this module with `react-native-fs` or something similar.
+
 `$ npm install react-native-react-native-brotli-compression --save`
 `$ yarn add react-native-react-native-brotli-compression`
-
 
 ### Mostly automatic installation
 
 `$ react-native link react-native-react-native-brotli-compression`
 
+## Compatibility
+
+This module can currently only be used with Android.
+
+
 ## Usage
 ```javascript
-import ReactNativeBrotliCompression from 'react-native-react-native-brotli-compression';
+import BrotliModule from 'react-native-react-native-brotli-compression';
 
-// TODO: What to do with the module?
-ReactNativeBrotliCompression;
+await BrotliModule.decompressFile('file.br',  'output.br');
 ```
+

@@ -4,7 +4,8 @@
     "lib": ["ES6", "ES7"],
     "jsx": "react-native",
     "module": "CommonJS",
-    "outDir": "dist"
+    "outDir": "dist",
+    "declaration": true
   },
   "include": ["lib/**/*.tsx?", "index.ts"]
 }

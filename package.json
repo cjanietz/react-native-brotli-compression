@@ -6,7 +6,9 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepack": "yarn build",
+    "publish:local": "yarn publish --registry http://localhost:4873"
   },
   "repository": {
     "type": "git",

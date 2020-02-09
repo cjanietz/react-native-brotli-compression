@@ -1,1 +1,4 @@
 example
+.idea
+*.tgz
+.gradle
