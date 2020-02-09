@@ -1,8 +1,8 @@
 {
   "name": "react-native-brotli-compression",
   "title": "React Native React Native Brotli Compression",
-  "version": "1.0.0",
-  "description": "TODO",
+  "version": "0.1.0",
+  "description": "Module to decompress files on the filesystem using Brotli",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
@@ -12,16 +12,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github_account/react-native-react-native-brotli-compression.git",
-    "baseUrl": "https://github.com/github_account/react-native-react-native-brotli-compression"
+    "url": "git+https://github.com/cjanietz/react-native-brotli-compression.git",
+    "baseUrl": "https://github.com/cjanietz/react-native-brotli-compression.git"
   },
   "keywords": [
     "react-native"
   ],
-  "author": {
-    "name": "Your Name",
-    "email": "yourname@email.com"
-  },
+  "author":  "Christopher Janietz",
   "license": "MIT",
   "licenseFilename": "LICENSE",
   "readmeFilename": "README.md",
